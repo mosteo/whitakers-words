@@ -16,10 +16,13 @@
 
 with Ada.Integer_Text_IO;
 with Ada.Float_Text_IO;
-with Text_IO;
-with Direct_IO;
+with Ada.Text_IO;
+with Ada.Direct_IO;
 with Latin_Utils.Strings_Package; use Latin_Utils.Strings_Package;
 with Latin_Utils.Dictionary_Package; use Latin_Utils.Dictionary_Package;
+
+use Ada;
+
 procedure Sorter is
    --  This program sorts a file of lines (Strings) on 4 subStrings Mx .. Nx
    --  Sort by Stringwise (different cases), numeric, or POS enumeration

@@ -20,7 +20,7 @@ with Latin_Utils.Config;
 with Latin_Utils.Strings_Package; use Latin_Utils.Strings_Package;
 with Latin_Utils.Latin_File_Names; use Latin_Utils.Latin_File_Names;
 with Latin_Utils.Inflections_Package; use Latin_Utils.Inflections_Package;
-with IO_Exceptions;
+with Ada.IO_Exceptions; use Ada;
 with Ada.Exceptions;
 
 procedure Makeinfl is
